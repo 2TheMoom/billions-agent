@@ -1,0 +1,16 @@
+{
+ "modules":[
+   {
+    "name":"Trust Monitor",
+    "function":"Monitors decentralized trust signals"
+   },
+   {
+    "name":"Credential Analyzer",
+    "function":"Evaluates identity attestations"
+   },
+   {
+    "name":"Research Engine",
+    "function":"Performs autonomous onchain research"
+   }
+ ]
+}
