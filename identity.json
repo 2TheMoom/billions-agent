@@ -1,0 +1,17 @@
+{
+ "name":"Atlas",
+ "network":"Billions",
+ "type":"Autonomous Agent",
+ "version":"1.0",
+ "wallet":"0x10745fcCbCF1e12C215a81791af66da7f451E3EE",
+ "owner":"0x1d6038A425059545996eB14E34cFb8A3b7791Ec5",
+ "skills":[
+   "research",
+   "automation"
+ ],
+ "permissions":[
+   "read",
+   "analyze"
+ ],
+ "status":"active"
+}
