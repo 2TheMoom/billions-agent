@@ -22,6 +22,5 @@ jobs:
           git config --global user.name "Atlas Bot"
           git config --global user.email "atlas@bot.com"
           git add atlas-log.json
-          git comm
-it -m "Atlas automated update" || echo "No changes"
+          git commit -m "Atlas automated update" || echo "No changes"
           git push
