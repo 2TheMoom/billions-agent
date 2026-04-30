@@ -29,3 +29,12 @@ v1.0 — Agent identity created
 v1.1 — Verified Agent Identity linked  
 v2.0 — Expanded FAIAR-grade capabilities
 :::
+
+## 🔐 Ownership & Verification
+
+See full proof: [OWNERSHIP_PROOF.md](./OWNERSHIP_PROOF.md)
+
+This agent is:
+- Cryptographically verified
+- Linked to a human owner
+- Built on Billions Network identity infrastructure
