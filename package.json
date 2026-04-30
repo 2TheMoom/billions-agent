@@ -1,4 +1,9 @@
 {
+  "name": "atlas-agent",
+  "version": "1.0.0",
+  "description": "Atlas autonomous risk analysis agent",
+  "main": "run-atlas.js",
+  "type": "commonjs",
   "dependencies": {
     "node-fetch": "^3.3.2"
   }

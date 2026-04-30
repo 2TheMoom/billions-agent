@@ -1,0 +1,4 @@
+echo "atlas-log.json merge=ours" >> .gitattributes
+git add .gitattributes
+git commit -m "Prevent log merge conflicts"
+git push

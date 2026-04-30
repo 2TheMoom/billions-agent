@@ -19,9 +19,11 @@ jobs:
         with:
           node-version: "22"
 
+      - run: npm install
+
       - run: node run-atlas.js
-  env:
-    ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
+        env:
+          ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
 
       - run: |
           git config --global user.name "Atlas Bot"
