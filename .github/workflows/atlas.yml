@@ -1,5 +1,8 @@
 name: Atlas Autonomous Task
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 */6 * * *"
