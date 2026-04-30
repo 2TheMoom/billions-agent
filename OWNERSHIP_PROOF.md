@@ -69,3 +69,6 @@ Timestamp: 2026-04-30
 
 **Signature:**
 0x6ff981ed0efd44b8812495f8ffe629f3fb153b295037a989374a8966bbc3643c06d09c25fd19a79329726eafd717e217ca23aac2ca56089151990b9049d5a2251c
+**Verification:**
+Signature verified using MyCrypto via Ethereum `personal_sign` standard.  
+Recovered address matches owner wallet: 0x1d6038A425059545996eB14E34cFb8A3b7791Ec5
