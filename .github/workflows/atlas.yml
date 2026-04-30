@@ -1,0 +1,27 @@
+name: Atlas Autonomous Task
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-atlas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - run: node run-atlas.js
+
+      - run: |
+          git config --global user.name "Atlas Bot"
+          git config --global user.email "atlas@bot.com"
+          git add atlas-log.json
+          git comm
+it -m "Atlas automated update" || echo "No changes"
+          git push

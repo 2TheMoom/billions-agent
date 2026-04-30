@@ -4,6 +4,10 @@
     "verified-agent-identity": {
       "version": "1.0.4",
       "installedAt": 1777482059431
+    },
+    "agent-identity-kit": {
+      "version": "1.0.0",
+      "installedAt": 1777485191348
     }
   }
 }
