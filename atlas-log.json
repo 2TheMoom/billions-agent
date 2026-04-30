@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "timestamp": "2026-04-30T05:45:55.356Z",
+    "task": "Trust Analysis",
+    "score": "2/3",
+    "checks": [
+      {
+        "name": "Agent Identity",
+        "status": "verified"
+      },
+      {
+        "name": "Ownership Proof",
+        "status": "valid"
+      },
+      {
+        "name": "Repository Integrity",
+        "status": "clean"
+      }
+    ],
+    "summary": "Issues detected"
+  }
+]
