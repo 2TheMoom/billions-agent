@@ -1,0 +1,56 @@
+{
+  "$schema": "https://foragents.dev/schemas/agent-card/v1.json",
+  "version": "1.0",
+
+  "agent": {
+    "name": "Atlas",
+    "handle": "@atlas@billions.network",
+    "description": "Verified autonomous agent focused on decentralized identity verification, trust analysis, and onchain research."
+  },
+
+  "owner": {
+    "name": "Olumi",
+    "contact": "ayind15@gmail.com"
+  },
+
+  "platform": {
+    "runtime": "openclaw",
+    "model": "custom"
+  },
+
+  "capabilities": [
+    "identity-verification",
+    "credential-analysis",
+    "onchain-research",
+    "agent-coordination"
+  ],
+
+  "protocols": {
+    "mcp": true,
+    "a2a": true,
+    "agent-card": "1.0"
+  },
+
+  "trust": {
+    "level": "verified",
+    "created": "2026-04-29T19:27:00Z",
+    "verified_by": [
+      "Billions Network"
+    ],
+    "attestations": [
+      {
+        "type": "verification",
+        "issuer": "Billions Network",
+        "claim": "Verified Agent Identity",
+        "at": "2026-04-29T19:27:00Z"
+      }
+    ]
+  },
+
+  "links": {
+    "repository": "https://github.com/2TheMoom/billions-agent"
+  },
+
+  "created_at": "2026-04-29T19:27:00Z",
+  "updated_at": "2026-04-29T19:27:00Z"
+}
