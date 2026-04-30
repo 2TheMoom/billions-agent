@@ -5,7 +5,8 @@
   "agent": {
     "name": "Atlas",
     "handle": "@atlas@billions.network",
-    "description": "Verified autonomous agent focused on decentralized identity verification, trust analysis, and onchain research."
+    "description": "Verified autonomous agent focused on decentralized identity verification, trust analysis, and onchain research.",
+    "homepage": "https://github.com/2TheMoom/billions-agent"
   },
 
   "owner": {
@@ -22,7 +23,9 @@
     "identity-verification",
     "credential-analysis",
     "onchain-research",
-    "agent-coordination"
+    "agent-coordination",
+    "trust-evaluation",
+    "autonomous-monitoring"
   ],
 
   "protocols": {
@@ -47,10 +50,18 @@
     ]
   },
 
+  "endpoints": {
+    "card": "https://github.com/2TheMoom/billions-agent/blob/main/agent.json",
+    "status": "https://github.com/2TheMoom/billions-agent"
+  },
+
   "links": {
-    "repository": "https://github.com/2TheMoom/billions-agent"
+    "website": "https://github.com/2TheMoom/billions-agent",
+    "repo": "https://github.com/2TheMoom/billions-agent",
+    "documentation": "https://github.com/2TheMoom/billions-agent/blob/main/README.md",
+    "ownership_proof": "https://github.com/2TheMoom/billions-agent/blob/main/OWNERSHIP_PROOF.md"
   },
 
   "created_at": "2026-04-29T19:27:00Z",
-  "updated_at": "2026-04-29T19:27:00Z"
+  "updated_at": "2026-04-30T00:00:00Z"
 }
