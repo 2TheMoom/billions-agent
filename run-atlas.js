@@ -1,28 +1,10 @@
-import fs from "fs";
+const fs = require("fs");
 
-const logFile = "atlas-log.json";
+const log = {
+  timestamp: new Date().toISOString(),
+  status: "Atlas ran successfully",
+};
 
-// Simulated task (you can expand later)
-function runTask() {
-  const timestamp = new Date().toISOString();
+fs.writeFileSync("atlas-log.json", JSON.stringify(log, null, 2));
 
-  const result = {
-    time: timestamp,
-    task: "onchain-research",
-    status: "completed",
-    summary: "Checked network activity and verified identity signals"
-  };
-
-  let logs = [];
-  if (fs.existsSync(logFile)) {
-    logs = JSON.parse(fs.readFileSync(logFile));
-  }
-
-  logs.push(result);
-
-  fs.writeFileSync(logFile, JSON.stringify(logs, null, 2));
-
-  console.log("Atlas task executed:", result);
-}
-
-runTask();
+console.log("Atlas task executed");
