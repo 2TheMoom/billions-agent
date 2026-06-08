@@ -1745,5 +1745,16 @@
       "No transaction history"
     ],
     "summary": "Medium Risk"
+  },
+  {
+    "timestamp": "2026-06-08T20:22:23.338Z",
+    "wallet": "0x1d6038A425059545996eB14E34cFb8A3b7791Ec5",
+    "task": "Real Wallet Risk Analysis",
+    "txCount": 0,
+    "riskScore": 60,
+    "flags": [
+      "No transaction history"
+    ],
+    "summary": "Medium Risk"
   }
 ]
